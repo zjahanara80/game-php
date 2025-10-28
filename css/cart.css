@@ -1,0 +1,136 @@
+
+.main-about__parent
+{
+    width: 60%;
+    height: max-content;
+    margin: 5% auto;
+    color: black;
+    text-shadow: 0 0 10px black;
+    padding: 2%;
+}
+
+body
+{
+  background: rgb(19, 19, 19);
+  color : rgb(255, 255, 255);
+}
+
+
+   .buyIcon
+   {
+       background: black;
+       border-radius: 50px;
+       display: flex;
+       align-items: center;
+       text-align: center;
+       justify-content: center;
+       width: 26px !important;
+       padding: 1% !important;
+       padding-right: 3% !important;
+       padding-top: 2% !important;
+   }
+
+
+   main
+   {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-direction: column;
+      min-height : 55vh;
+      max-height : max-content;
+   }
+   section
+   {
+text-align: right;
+color: black;
+margin: 2% auto;
+padding: 1%;
+display: flex
+;
+flex-direction: column;
+align-items: flex-start;
+width: 80%;
+   }
+   
+   .product-box
+   {
+      display: flex
+;
+margin: 2% auto;
+box-shadow: 0 0 10px orangered;
+padding: 3%;
+width: 95%;
+align-items: center;
+color: white;
+   }
+   .priceWrapper
+   {
+      display: flex;
+      width: 300px;
+      justify-content: center !important;
+      align-items : center !important;
+  }
+  .priceWrapper button
+  {
+      padding: 2%;
+      background: orangered !important;
+      font-weight: bold;
+      border-radius: 10px;
+      cursor: pointer;
+      color: black;
+      width: max-content;
+      padding: 10px;
+      border: none;
+
+  }
+  .product-image
+  {
+      width: 130px;
+      height: 130px;
+      /* border-radius: 50%; */
+      margin: 0 2%;
+  }
+
+  .payTitle
+  {
+      margin: 1% auto;
+  }
+  .payBtn
+  {
+      width: 100px;
+      height : 50px;
+      cursor : pointer;
+      display : block;
+      margin : 1% auto;
+      border-radius: 30px;
+      border: none;
+      background: #62adb7bd;
+  }
+
+  .title
+  {
+      text-align: center;
+      display: block;
+      margin: 1% auto;
+      font-size: 20px;
+  }
+
+  .product-info
+  {
+      flex-basis: 30%;
+  }
+
+.buyMain
+{
+    display: flex
+  ;
+      flex-direction: column;
+      align-items: center;
+
+}
+
+.imgbuy{
+    width: 350px;
+    height: 350px;
+}
