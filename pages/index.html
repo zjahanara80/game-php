@@ -250,15 +250,13 @@
 
 
 <footer>
-
     <div class="rightFoot">
         <span class="footTitle">راه ارتباطی</span>
         تهران – خیابان مطهری – بعد از اتوبان مدرس – ابتدای خیابان میرعماد – پلاک ۲
-<br>
-        پشتیبانی : 66797376 (021)
         <br>
-
-        ایمیل : game-center@gmail.com
+        ایمیل : zeynabjahanara80@gmail.com
+        <br>
+        لینکدین : linkedin.com/in/zeynab-jahanara
     </div>
     <img class="centerFoot" src="../images/اینماد.jfif" style="width: 200px; height: 130px;border-radius: 20px;">
     <img class="centerFoot" src="../images/e2.png" style="width: 200px; height: 130px;border-radius: 20px;">
@@ -266,5 +264,56 @@
  </footer> 
  <div class="footBTM">تمام حقوق سایت محفوظ است</div>  
 
+ <script>
+    let askBtns = document.querySelectorAll('.ask')
+    askBtns.forEach(ask => {
+    ask.onclick = (event) =>
+    {
+        console.log(event.target.nextElementSibling);
+        if(event.target.nextElementSibling.classList.contains('answer'))
+        {
+            event.target.nextElementSibling.classList.toggle('disBlock')
+        }
+        
+    }
+})
+
+
+    let boxs = document.querySelectorAll('.shop-item')
+    if(boxs)
+{
+
+    boxs.forEach(elem =>
+        {
+            console.log(elem)
+            console.log(elem.firstElementChild.innerHTML);            
+        }
+    )
+}
+
+    if(document.querySelectorAll('.shop-item-button'))
+    {
+
+        document.querySelectorAll('.shop-item-button').foreach(btn =>
+            {
+                btn.onclick = () =>
+            {
+                console.log(btn);
+                
+                if(document.querySelectorAll('.desc'))
+            {
+    
+                document.querySelectorAll('.desc').foreach(desc =>
+                    {
+                        console.log('hello');
+                        
+                    }
+                )
+            }
+            }
+            }
+        )
+    }
+</script>
 </body>
 </html>

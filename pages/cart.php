@@ -130,21 +130,19 @@
     
 
 
-        <footer>
+<footer>
+    <div class="rightFoot">
+        <span class="footTitle">راه ارتباطی</span>
+        تهران – خیابان مطهری – بعد از اتوبان مدرس – ابتدای خیابان میرعماد – پلاک ۲
+        <br>
+        ایمیل : zeynabjahanara80@gmail.com
+        <br>
+        لینکدین : linkedin.com/in/zeynab-jahanara
+    </div>
+    <img class="centerFoot" src="../images/اینماد.jfif" style="width: 200px; height: 130px;border-radius: 20px;">
+    <img class="centerFoot" src="../images/e2.png" style="width: 200px; height: 130px;border-radius: 20px;">
 
-<div class="rightFoot">
-    <span class="footTitle">راه ارتباطی</span>
-    تهران – خیابان مطهری – بعد از اتوبان مدرس – ابتدای خیابان میرعماد – پلاک ۲
-<br>
-    پشتیبانی : 66797376 (021)
-    <br>
-
-    ایمیل : game-center@gmail.com
-</div>
-<img class="centerFoot" src="../images/اینماد.jfif" style="width: 200px; height: 130px;border-radius: 20px;">
-<img class="centerFoot" src="../images/e2.png" style="width: 200px; height: 130px;border-radius: 20px;">
-
-</footer> 
+ </footer> 
 <div class="footBTM">تمام حقوق سایت محفوظ است</div>  
 <script>
     document.querySelector('.payBtn').onclick = () =>
