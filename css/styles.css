@@ -484,8 +484,7 @@ nav ul li:hover .dropdown-content {
 
 .topnav .sub {
     background: #000000f8;
-    display: flex
-;
+    display: flex;
     flex-direction: column;
     align-items: center;
     list-style: none;
@@ -594,7 +593,8 @@ h2 {
     color: orangered;
     padding: 1% 2%;
     height: 700px;
-    flex-basis: 30%;
+    /* flex-basis: 30%; */
+    width: 360px;
 }
 
 
@@ -724,6 +724,7 @@ main {
     justify-content: center;
     gap: 3rem;
     padding-top: 3rem;
+    flex-wrap: wrap;
 }
 
 .home-tab div {
@@ -820,7 +821,7 @@ main {
 .q .ask {
     color: white;
     font-weight: bold;
-    background: #4c7492f8;
+    background: #8e2600;
     padding: 1% 2%;
     width: 100%;
     cursor: pointer;
@@ -860,7 +861,8 @@ footer {
     color: white;
     font-weight: bold;
     line-height: 3rem;
-    background: #8e2600;}
+    background: #8e2600;
+}
 
 footer .title {
     font-weight: bold;
@@ -1141,34 +1143,116 @@ footer .title {
 
 #response-message {
     width: max-content;
-    background: pink;
+    background: #ee4d00;
     color: black;
     position: sticky;
     top: 0;
     right: 40%;
-    z-index: 999;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    right: 40%;
 
 }
 
-@media screen and (max-width:980px) {
 
-    .leftcol,
-    .rightcol {
-        width: 100%;
-        padding: 0px
+@media screen and (max-width:1200px) {
+    .product-info {
+        flex-basis: 20%;
+        font-size: 15px;
+    }
+
+    .priceWrapper {
+        padding: 0 0.5rem;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    section {
+        text-align: right;
+        color: black;
+        margin: 2% auto;
+        padding: 1%;
+        display: flex;
+        flex-direction: row !important;
+        align-items: flex-start;
+        width: 80% !important;
+        flex-wrap: wrap !important;
+        gap: 0.5rem;
+        justify-content: space-evenly;
+    }
+
+    .product-box {
+        display: flex;
+        margin: 2% auto;
+        box-shadow: 0 0 10px orangered;
+        padding: 3%;
+        width: 400px !important;
+        align-items: center;
+        color: white;
+        flex-direction: column !important;
+        gap: 1.2rem !important;
+    }
+
+    .product-box .cart-title {
+        width: 90% !important;
+
+    }
+
+    /* .product-box p {
+        margin-right: 6rem;
+    } */
+    .product-info p {
+        margin-right: 10%;
+    }
+}
+
+@media screen and (max-width:830px) {
+    main {
+        background-size: 100% !important;
+        margin-top: -11rem;
+    }
+
+    .nav a,
+    .subli {
+        font-size: 13px;
+    }
+
+    .toptitle {
+        font-size: 30px;
+    }
+
+    .home-tab div img {
+        width: 60px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    main {
+        background-size: 100% !important;
+        margin-top: -14rem;
     }
 
     .topnav {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        gap: 0;
     }
 
-    .topnav a {
-        display: block;
-        width: 70%;
-        text-align: center;
-        float: right
+    .nav a,
+    .subli {
+        font-size: 11px;
+    }
+
+    footer {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .rightFoot,
+    .leftFoot {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        width: 80%;
+        padding: 1rem;
     }
 }
