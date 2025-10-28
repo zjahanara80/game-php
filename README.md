@@ -7,7 +7,9 @@
 - Display products from the database  
 - Add products to the shopping cart  
 - Full MySQL integration  
-- Payment gateway connection  
+- Payment gateway connection
+- responsive
+- calculate total of price * quantity of price
 
 ---
 
