@@ -1,6 +1,6 @@
 Game Center
 <p>
-  <img src="./preview.png" width="600px" height="400px"/>
+  <img src="./preview.png" height="500px"/>
 </p>
 
 
